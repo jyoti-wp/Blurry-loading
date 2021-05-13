@@ -14,7 +14,8 @@ body {
 }
 
 .bg {
-  background: url("images/download.jpeg") no-repeat center center/cover;
+  background: url("images/bay_bridge_san_francisco_city_black_and_white-wallpaper-1440x900.jpg")
+    no-repeat center center/cover;
   position: absolute;
   top: -30px;
   left: -30px;
