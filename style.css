@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,22 +7,23 @@
 body {
   align-items: center;
   display: flex;
-  font-family: "Dela Gothic One", cursive;
+  font-family: "Newsreader", serif;
   margin: 0;
   overflow: hidden;
   justify-content: center;
 }
 
 .bg {
-  background: url("images/bay_bridge_san_francisco_city_black_and_white-wallpaper-1440x900.jpg")
-    no-repeat center center/cover;
+  background: url("images/bay_bridge_san_francisco_city_black_and_white-wallpaper-1440x900.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   position: absolute;
   top: -30px;
   left: -30px;
   width: 100vw;
+  height: 100vh;
   width: calc(100vw + 60px);
   height: calc(100vh + 60px);
-  height: 100vh;
   z-index: -1;
   filter: blur(60px);
 }
